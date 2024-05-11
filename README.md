@@ -21,7 +21,9 @@ This Python script converts Nmap XML scan results into CSV format. It parses the
 2. Ensure you have Python 3.x installed on your system.
 3. Run the script `nmap_xml_to_csv.py` with the following command:
 
-python nmap_xml_to_csv.py <path_to_nmap_xml_file> <output_csv_file>
+```
+    python nmap_xml_to_csv.py <path_to_nmap_xml_file> <output_csv_file>
+```
 
 Replace `<path_to_nmap_xml_file>` with the path to your Nmap XML file, and `<output_csv_file>` with the desired path for the output CSV file.
 
@@ -29,7 +31,9 @@ Replace `<path_to_nmap_xml_file>` with the path to your Nmap XML file, and `<out
 
 Suppose you have an Nmap XML file named `nmap_scan.xml` and you want to convert it to CSV format. You can run the following command:
 
+```
 python nmap_xml_to_csv.py nmap_scan.xml nmap_scan.csv
+```
 
 
 This will convert the `nmap_scan.xml` file to CSV format and save the output as `nmap_scan.csv` in the same directory.
